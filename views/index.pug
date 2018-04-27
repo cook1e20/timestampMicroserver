@@ -1,0 +1,19 @@
+
+
+.topic-component
+	h1 #{title}
+	p Welcome to my #{title} this app is created to: 
+	ul
+		li Check if a string passes as a parameter contains either a unix timesamp or a natural language date (i.e. December 20, 1990)
+		li if it does, it returns both the Unix timestamp and the natural language form of that date 
+		li If it does not contain a date or Unix timestamp, it returns null fo those properties 
+
+.examples
+	h1 Examples
+	p localhost:3000/December 20, 1990
+	p localhost:3000/661651200
+
+.output
+	h1 Example output
+	p { "unix": 1450137600, "natural": "December 15, 2015" }
+
